@@ -45,6 +45,30 @@ button.addEventListener('click', () => {
   })
 })
 
+document.querySelector('.ublock').addEventListener('click', () => {
+    installId("cjpalhdlnbpafiamejdnhcphjbkeiagm").then(() => {
+        error.textContent = ""
+    }).catch((err) => {
+        error.textContent = err
+    })
+})
+
+document.querySelector('.vpn').addEventListener('click', () => {
+    installId("bojaonpikbbgeijomodbogeiebkckkoi").then(() => {
+        error.textContent = ""
+    }).catch((err) => {
+        error.textContent = err
+    })
+})
+
+document.querySelector('.ublock').addEventListener('click', () => {
+    installId("jifpbeccnghkjeaalbbjmodiffmgedin").then(() => {
+        error.textContent = ""
+    }).catch((err) => {
+        error.textContent = err
+    })
+})
+
 input.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     button.click()
